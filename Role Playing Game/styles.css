@@ -1,35 +1,49 @@
 body {
-  background-color: #0a0a23;
+  background-color: #0e180f;
 }
 
 #text {
-  background-color: #0a0a23;
-  color: #ffffff;
+  background-color: #56ab9b;
+  border-radius: 0px 0px 3px 3px;
+  color: #003809;
   padding: 10px;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 
 #game {
   max-width: 500px;
   max-height: 400px;
-  background-color: #ffffff;
+  background-color: #89db76;
   color: #ffffff;
-  margin: 30px auto 0px;
+  margin: 250px auto 0px;
   padding: 10px;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 
 #controls,
 #stats {
-  border: 1px solid #0a0a23;
+  border: 1px solid #03260d;
   padding: 5px;
-  color: #0a0a23;
+  color: #07071b;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
 }
 
 #monsterStats {
   display: none;
-  border: 1px solid #0a0a23;
+  border: 1px solid #04200a;
+  border-radius: 3px;
   padding: 5px;
   color: #ffffff;
   background-color: #c70d0d;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 
 .stat {
@@ -38,8 +52,12 @@ body {
 
 button {
   cursor: pointer;
-  color: #0a0a23;
-  background-color: #feac32;
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border: 3px solid #feac32;
+  color: hsl(150, 31%, 10%);
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  
+  background-color: #018406;
+  background-image: linear-gradient(#56ab9b, #9c9830);
+  border: 2px solid #fe3232;
+  border-radius: 3px;
 }
